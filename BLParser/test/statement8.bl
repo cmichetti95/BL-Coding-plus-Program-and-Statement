@@ -1,0 +1,10 @@
+IF next-is-not-enemy THEN
+  WHILE FEEDMESEYMOUR DO
+    move
+    turnright
+  END WHILE
+ELSE
+  IF next-is-enemy THEN
+    search-and-destroy
+  END IF
+END IF

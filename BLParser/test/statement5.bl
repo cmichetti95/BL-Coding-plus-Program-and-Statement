@@ -1,0 +1,11 @@
+IF next-is-not-empty THEN
+  WHILE next-is-not-wall DO
+    move
+    skip
+    turnright
+  END WHILE
+ELSE
+  IF next-is-enemy THEN
+    search-and-destroy
+  END IF
+END IF

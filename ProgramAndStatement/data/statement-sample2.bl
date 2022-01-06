@@ -1,0 +1,9 @@
+    WHILE true DO
+        FindObstacle
+        IF next-is-enemy THEN
+            infect
+        ELSE
+            turnleft
+            move
+        END IF
+    END WHILE
